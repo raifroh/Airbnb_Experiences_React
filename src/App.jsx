@@ -8,12 +8,8 @@ function App() {
   const experiencesData = data.map(experience => {
     return <Card 
     key={experience.id}
-    img={experience.coverImg} 
-    rating={experience.rating} 
-    reviewCount={experience.stats.rating} 
-    location={experience.location} 
-    title={experience.title} 
-    price={experience.price} />
+    experience={experience}
+    />
 })
   return (
   <div>
