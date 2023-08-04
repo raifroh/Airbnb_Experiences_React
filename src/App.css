@@ -45,6 +45,7 @@ section {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
+  justify-content: center;
 }
 
 .card {
@@ -60,6 +61,7 @@ section {
   width: 100%;
   border-radius: 9px;
   margin-bottom: 9px;
+  max-height: 230px;
 }
 
 .card--title {

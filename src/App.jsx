@@ -6,17 +6,19 @@ import './App.css'
 
 function App() {
   const experiencesData = data.map(experience => {
-    return <Card 
-    key={experience.id}
-    experience={experience}
+    return (
+    <Card 
+        key={experience.id}
+        experience={experience}
     />
+    )
 })
   return (
   <div>
     <Navbar />
-   {/* <Hero /> */}
+   <Hero />
    <section className="cards-list">
-   {experiencesData}
+      {experiencesData}
    </section>
   </div>
   )
